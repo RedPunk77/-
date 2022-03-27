@@ -6,5 +6,6 @@ def Euclid_algorithm(a, b):
             return Euclid_algorithm(a, b - a)
     return a
 
-
-print(Euclid_algorithm(31, 30))
+x = int(input())
+y = int(input())
+print(Euclid_algorithm(x, y))
